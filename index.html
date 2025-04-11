@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern Design - Professional web development and design services">
+    <title>Modern Design - Professional Web Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="ggg.jpg">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="icon.jpeg" alt="" srcset="" class="img">
+                <a href="#" aria-label="Modern Design Home">Tae<span>Kon</span></a>
+            </div>
+            <nav class="nav-menu" aria-label="Main navigation">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Create Something Amazing</h1>
+                <p>We transform your ideas into digital reality with cutting-edge design and technology.</p>
+                <div class="hero-buttons">
+                    <button class="cta-button">Get Started</button>
+                    <button class="secondary-button">Learn More</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with modern technologies and best practices.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>Performance Optimization</li>
+                        <li>SEO Friendly</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile applications for iOS and Android.</p>
+                    <ul class="service-features">
+                        <li>iOS Development</li>
+                        <li>Android Development</li>
+                        <li>Cross-platform Solutions</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush" aria-hidden="true"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful and intuitive user interfaces that engage users.</p>
+                    <ul class="service-features">
+                        <li>User Research</li>
+                        <li>Wireframing</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <h2>Featured Work</h2>
+            <div class="work-grid">
+                <div class="work-item">
+                    <img src="./001.webp" alt="E-commerce Platform Project" loading="lazy">
+                    <div class="work-overlay">
+                        <h3>E-commerce Platform</h3>
+                        <p>Web Development</p>
+                        <a href="#" class="work-link">View Project</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="./002.webp" alt="Fitness App Project" loading="lazy">
+                    <div class="work-overlay">
+                        <h3>Fitness App</h3>
+                        <p>Mobile Development</p>
+                        <a href="#" class="work-link">View Project</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="./003.webp" alt="Brand Identity Project" loading="lazy">
+                    <div class="work-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>UI/UX Design</p>
+                        <a href="#" class="work-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>We are a team of passionate developers and designers dedicated to creating exceptional digital experiences. Our goal is to help businesses succeed in the digital world through innovative solutions and cutting-edge technology.</p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="https://source.unsplash.com/random/200x200?person" alt="John Doe - Lead Developer" loading="lazy">
+                        <h3>John Doe</h3>
+                        <p>Lead Developer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://source.unsplash.com/random/200x200?woman" alt="Jane Smith - UI/UX Designer" loading="lazy">
+                        <h3>Jane Smith</h3>
+                        <p>UI/UX Designer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://source.unsplash.com/random/200x200?man" alt="Mike Johnson - Project Manager" loading="lazy">
+                        <h3>Mike Johnson</h3>
+                        <p>Project Manager</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Get in Touch</h2>
+            <div class="contact-container">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="visually-hidden">Name</label>
+                        <input type="text" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="visually-hidden">Email</label>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service" class="visually-hidden">Select Service</label>
+                        <select id="service" required>
+                            <option value="">Select Service</option>
+                            <option value="web">Web Development</option>
+                            <option value="mobile">Mobile Apps</option>
+                            <option value="design">UI/UX Design</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="visually-hidden">Message</label>
+                        <textarea id="message" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope" aria-hidden="true"></i> info@example.com</p>
+                <p><i class="fas fa-phone" aria-hidden="true"></i> (123) 456-7890</p>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 123 Design Street, Creative City</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form" id="newsletterForm">
+                    <label for="newsletter-email" class="visually-hidden">Email for newsletter</label>
+                    <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Modern Design. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            mobileMenu.setAttribute('aria-hidden', isExpanded);
+            menuToggle.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.setAttribute('aria-expanded', 'false');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+                menuToggle.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handling
+        const contactForm = document.getElementById('contactForm');
+        const newsletterForm = document.getElementById('newsletterForm');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Add your form submission logic here
+            console.log('Contact form submitted');
+        });
+
+        newsletterForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Add your newsletter subscription logic here
+            console.log('Newsletter form submitted');
+        });
+    </script>
+</body>
+</html> 
